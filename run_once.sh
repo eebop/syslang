@@ -2,7 +2,7 @@
 
 echo_all() {
   echo "export PATH=\"\$PATH:`pwd`\""
-  echo "alias selfrun=\"selfrun.py\""
+  echo "alias syslang=\"syslang.py\""
 }
 
 if [ -e ~/.bash_profile ]; then
