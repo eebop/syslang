@@ -13,7 +13,7 @@ def run(argv):
     if not argv == []:
         return operations, argv[0], argv[1:]
     else:
-        return [], '', []
+        return operations
 
 def _grab_option(op):
     if op.startswith('-'):
